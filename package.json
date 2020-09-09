@@ -1,0 +1,60 @@
+{
+  "name": "nextjs-config",
+  "version": "1.0.0",
+  "description": "Next.js Engineering Configuration",
+  "main": "index.js",
+  "root": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "prestart": "npm run build",
+    "start": "next start -p 3040"
+  },
+  "dependencies": {
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.2.0",
+    "@types/prettier": "^2.0.2",
+    "@types/stylelint": "^9.10.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-prettier": "^1.1.2"
+  },
+  "config": {},
+  "author": "zhilidali@qq.com",
+  "homepage": "https://github.com:EPCor/Next.js-Config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:EPCor/Next.js-Config.git"
+  },
+  "bugs": {
+    "url": "https://github.com:EPCor/Next.js-Config/issues"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "Next.js",
+    "React",
+    "SG",
+    "SSR",
+    "CSR"
+  ],
+  "engines": {
+    "node": ">= v10.13",
+    "vscode": "^1.48.2",
+    "Git": ">= 2.13.0"
+  }
+}
