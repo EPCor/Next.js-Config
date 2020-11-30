@@ -11,25 +11,25 @@
     "start": "next start -p 3040"
   },
   "dependencies": {
-    "next": "^9.5.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@types/eslint": "^7.2.0",
-    "@types/prettier": "^2.0.2",
+    "@types/eslint": "^7.2.5",
+    "@types/prettier": "^2.1.5",
     "@types/stylelint": "^9.10.1",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.6.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.5",
-    "eslint-plugin-react-hooks": "^4.0.8",
-    "postcss-flexbugs-fixes": "^4.2.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
-    "prettier": "^2.0.5",
-    "stylelint": "^13.6.1",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-prettier": "^1.1.2"
