@@ -1,6 +1,6 @@
-import { getData, getItem } from '~/lib/data';
 import Head from 'next/head';
 import Link from 'next/link';
+import { getData, getItem } from '~/lib/data';
 
 export default function Post({ item }) {
   return (

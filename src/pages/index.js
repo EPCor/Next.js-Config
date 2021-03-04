@@ -1,7 +1,7 @@
-import { getData } from '~/lib/data';
-import style from '~/styles/home.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
+import { getData } from '~/lib/data';
+import style from '~/styles/home.module.css';
 
 export default function Index({ data }) {
   return (
