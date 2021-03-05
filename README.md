@@ -8,7 +8,11 @@ Next.js Engineering Configuration
 
 ```sh
 $ npm i # Install
+
 $ npm run dev # development
+$ npm run debug # debug
+
+$ npm run build # build
 $ npm start # start
 ```
 
@@ -16,17 +20,19 @@ $ npm start # start
 
 ```json
 {
-  "next": "^9.5.3",
-  "react": "^16.13.1",
-  "react-dom": "^16.13.1"
+  "next": "^10.0.3",
+  "react": "^17.0.1",
+  "react-dom": "^17.0.1"
 }
 ```
 
 ## Path Aliases
 
-```sh
-"/*": ["./*"],
-"~/*": ["./src/*"]
+```json
+{
+  "/*": ["./*"],
+  "~/*": ["./src/*"]
+}
 ```
 
 ## License

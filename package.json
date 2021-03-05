@@ -6,6 +6,7 @@
   "root": true,
   "scripts": {
     "dev": "next dev",
+    "debug": "NODE_OPTIONS='--inspect' npm run dev",
     "build": "next build",
     "prestart": "npm run build",
     "start": "next start -p 3040"
