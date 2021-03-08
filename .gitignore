@@ -30,3 +30,4 @@ jspm_packages/
 # next.js
 .next
 .env*.local
+out

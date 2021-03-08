@@ -1,8 +1,8 @@
 /** @type { import('eslint').Linter.Config } */
 const options = {
   root: true,
-  /** @package babel-eslint */
-  parser: 'babel-eslint',
+  /** @package @babel/eslint-parser */
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',

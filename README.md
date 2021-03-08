@@ -10,9 +10,7 @@ Next.js Engineering Configuration
 $ npm i # Install
 
 $ npm run dev # development
-$ npm run debug # debug
 
-$ npm run build # build
 $ npm start # start
 ```
 
@@ -20,7 +18,7 @@ $ npm start # start
 
 ```json
 {
-  "next": "^10.0.3",
+  "next": "^10.0.8",
   "react": "^17.0.1",
   "react-dom": "^17.0.1"
 }
