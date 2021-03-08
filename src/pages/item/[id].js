@@ -16,7 +16,10 @@ export default function Post({ item }) {
   );
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params, preview, previewData }) {
+  if (preview && previewData.id === params.id) {
+    return { props: { item: { id: previewData.id, name: 'Preview Mode' } } };
+  }
   const item = await getItem(params.id);
 
   return { props: { item } };
