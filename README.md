@@ -1,8 +1,8 @@
-# Next.js Config
+# Next.js Engineering Configuration
 
-Next.js Engineering Configuration
+A boilerplate for Next.js application
 
-## Usage
+## Getting Started
 
 <a class="btn btn-sm btn-primary ml-2" href="https://github.com/EPCor/RN-Config/generate">Use this template</a> or clone this repository
 
@@ -10,11 +10,21 @@ Next.js Engineering Configuration
 $ npm i # Install
 
 $ npm run dev # development
+$ npm run debug
 
 $ npm start # start
 ```
 
-## dependencies
+## Features
+
+* use `prettier` as __Formatter__
+* use `eslint` as JS __Linter__
+* use `stylelint` as CSS __Linter__
+* use `babel` as __Transpiler__
+* use `PostCSS` as tool for __transforming styles__
+* use `pm2` as __process manager__
+
+### Dependencies
 
 ```json
 {
@@ -24,7 +34,7 @@ $ npm start # start
 }
 ```
 
-## Path Aliases
+### Path Aliases
 
 ```json
 {
@@ -35,4 +45,4 @@ $ npm start # start
 
 ## License
 
-[MIT License](/LICENSE)
+See the [LICENSE](/LICENSE) file for licensing information.

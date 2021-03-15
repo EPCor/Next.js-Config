@@ -81,7 +81,7 @@ const options = {
      */
     // Disallow the use of console
     // "no-console": ["warn", { "allow": ["warn", "error", "log", "info"] }],
-    // "debugger": "warn",
+    'no-debugger': 'warn',
     // calling `Object.prototype` method directly on objects
     'no-prototype-builtins': ['off'],
     // Disallow template literal placeholder syntax in regular strings
