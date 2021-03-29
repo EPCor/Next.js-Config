@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "debug": "NODE_OPTIONS='--inspect' npm run dev",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "prestart": "npm run build",
     "start": "next start -p 3040"
