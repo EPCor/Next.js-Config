@@ -1,4 +1,7 @@
 module.exports = {
+  future: {
+    webpack5: true,
+  },
   poweredByHeader: false,
   env: {},
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {

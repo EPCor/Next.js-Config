@@ -13,29 +13,33 @@
     "start": "next start -p 3040"
   },
   "dependencies": {
-    "next": "^10.0.8",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "next": "^10.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.13.8",
+    "@babel/eslint-parser": "^7.13.14",
     "@types/eslint": "^7.2.7",
-    "@types/prettier": "^2.2.2",
+    "@types/prettier": "^2.2.3",
     "@types/stylelint": "^9.10.1",
+    "autoprefixer": "^10.2.5",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.21.0",
+    "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react": "^7.23.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.2.8",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",
     "stylelint": "^13.12.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recommended": "^4.0.0",
-    "stylelint-prettier": "^1.2.0"
+    "stylelint-config-tailwindcss": "0.0.1",
+    "stylelint-prettier": "^1.2.0",
+    "tailwindcss": "^2.0.4"
   },
   "config": {},
   "author": "zhilidali@qq.com",

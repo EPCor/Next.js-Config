@@ -13,24 +13,27 @@ $ npm run dev # development
 $ npm run debug
 
 $ npm start # start
+$ pm2 start ecosystem.config.js # pm2
 ```
 
 ## Features
 
-* use `prettier` as __Formatter__
-* use `eslint` as JS __Linter__
-* use `stylelint` as CSS __Linter__
-* use `babel` as __Transpiler__
-* use `PostCSS` as tool for __transforming styles__
-* use `pm2` as __process manager__
+* use __`prettier`__ as _Formatter_
+* use __`eslint`__ as JS _Linter_
+* use __`stylelint`__ as CSS _Linter_
+* use __`PostCSS`__ as tool for _transforming styles_
+* use __`tailwindcss`__ as _CSS framework_
+* use __`babel`__ as _Transpiler_
+* use __`webpack@5`__ as _Builder_
+* use __`pm2`__ as _process manager_
 
-### Dependencies
+### Prodeuction Dependencies
 
 ```json
 {
-  "next": "^10.0.8",
-  "react": "^17.0.1",
-  "react-dom": "^17.0.1"
+  "next": "^10.1.1",
+  "react": "^17.0.2",
+  "react-dom": "^17.0.2",
 }
 ```
 

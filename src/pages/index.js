@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { getData } from '~/lib/data';
-import style from '~/styles/home.module.css';
 
 export default function Index({ data }) {
   return (
@@ -9,9 +8,11 @@ export default function Index({ data }) {
       <Head>
         <title>Next.js Engineering Configuration</title>
       </Head>
-      <ul className="ul">
+      <ul>
         {data.map(i => (
-          <li key={i.id} className={style.listItem}>
+          <li
+            key={i.id}
+            className="mt-3 text-center px-3 py-1 hover:bg-gray-200">
             <Link href="/item/[id]" as={`/item/${i.id}`}>
               <a>{i.name}</a>
             </Link>

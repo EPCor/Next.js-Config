@@ -27,6 +27,11 @@ const options = {
      * @see {@link https://prettier.io/docs/en/integrating-with-linters.html#stylelint}
      */
     'stylelint-prettier/recommended',
+
+    /**
+     * @package stylelint-config-tailwindcss
+     */
+    'stylelint-config-tailwindcss',
   ],
   rules: {
     /**

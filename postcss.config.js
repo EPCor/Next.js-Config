@@ -6,6 +6,7 @@
 module.exports = {
   plugins: [
     'stylelint',
+    'tailwindcss',
     /** default configuration used by Next.js */
     'postcss-flexbugs-fixes',
     [
