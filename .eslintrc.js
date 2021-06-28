@@ -74,6 +74,12 @@ const options = {
      * @package eslint-plugin-react
      */
     'plugin:react/recommended',
+
+    /**
+     * @integration next
+     * @package eslint-config-next
+     */
+    'next',
   ],
   rules: {
     /**
