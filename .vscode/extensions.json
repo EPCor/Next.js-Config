@@ -9,9 +9,8 @@
     "dbaeumer.vscode-eslint",
     "stylelint.vscode-stylelint",
     "csstools.postcss",
-    "CoenraadS.bracket-pair-colorizer-2",
     "aaron-bond.better-comments"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-  "unwantedRecommendations": ["thibaudcolas.stylelint", "shinnn.stylelint"]
+  "unwantedRecommendations": []
 }

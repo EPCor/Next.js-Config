@@ -1,20 +1,12 @@
 module.exports = {
   poweredByHeader: false,
   env: {},
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) =>
     /**
      * Perform customizations to webpack config
      * example: config.plugins.push(new webpack.IgnorePlugin(/\/__tests__\//))
      */
-    if (dev) {
-      config.module.rules.push({
-        enforce: 'pre',
-        test: /\.(j|t)sx?$/,
-        exclude: /node_modules/,
-        loader: 'eslint-loader',
-      });
-    }
+    // if (dev) {}
 
-    return config;
-  },
+    config,
 };

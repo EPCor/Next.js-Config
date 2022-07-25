@@ -25,13 +25,7 @@ const options = {
   },
 
   /* third-party plugins */
-  plugins: [
-    /**
-     * @integration react-hooks
-     * @package eslint-plugin-react-hooks
-     */
-    'react-hooks',
-  ],
+  plugins: [],
   /* Plugins may provide processors */
   processor: '',
   overrides: [
@@ -69,11 +63,6 @@ const options = {
      * @recommended eslint-plugin-prettier exposes a "recommended" configuration that configures both eslint-plugin-prettier and eslint-config-prettier in a single step.
      */
     'plugin:prettier/recommended',
-    /**
-     * @integration react
-     * @package eslint-plugin-react
-     */
-    'plugin:react/recommended',
 
     /**
      * @integration next
