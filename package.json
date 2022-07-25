@@ -20,8 +20,10 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.9",
+    "@epcor/eslint-config": "^0.0.2",
+    "@epcor/prettier-config": "^0.0.1",
+    "@epcor/stylelint-config": "^0.0.5",
     "@types/eslint": "^8.4.5",
-    "@types/prettier": "^2.6.3",
     "@types/stylelint": "^13.13.3",
     "autoprefixer": "^10.4.7",
     "eslint": "^8.20.0",

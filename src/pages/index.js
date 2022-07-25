@@ -12,7 +12,8 @@ export default function Index({ data }) {
         {data.map(i => (
           <li
             key={i.id}
-            className="mt-3 text-center px-3 py-1 hover:bg-gray-200">
+            className="mt-3 text-center px-3 py-1 hover:bg-gray-200"
+          >
             <Link href="/item/[id]" as={`/item/${i.id}`}>
               <a>{i.name}</a>
             </Link>
