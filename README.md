@@ -23,17 +23,15 @@ $ pm2 start ecosystem.config.js # pm2
 * use __`stylelint`__ as CSS _Linter_
 * use __`PostCSS`__ as tool for _transforming styles_
 * use __`tailwindcss`__ as _CSS framework_
-* use __`babel`__ as _Transpiler_
-* use __`webpack@5`__ as _Builder_
 * use __`pm2`__ as _process manager_
 
 ### Prodeuction Dependencies
 
 ```json
 {
-  "next": "^10.1.1",
-  "react": "^17.0.2",
-  "react-dom": "^17.0.2",
+  "next": "^12.2.3",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0"
 }
 ```
 
